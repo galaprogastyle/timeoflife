@@ -11,6 +11,7 @@ import CardGrid from '@vkontakte/vkui/dist/components/CardGrid/CardGrid';
 import '../fonts/montserrat.ttf'
 import './style.css';
 
+
 const home = props => (
     <Panel id={props.id}> 
         <PanelHeader>
@@ -19,7 +20,9 @@ const home = props => (
         <Group separator="hide">
       <CardGrid>
         <Card size="l">
-          <div style={{ height: 96 }} className="font" > 14:11:34</div>
+          <div style={{ height: 96 }} className="font" > 
+12:12:12
+          </div>
         </Card>
       </CardGrid>
     </Group>
@@ -33,3 +36,4 @@ const home = props => (
 );
 
 export default home;
+
